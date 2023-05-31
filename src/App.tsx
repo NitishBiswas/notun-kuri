@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from "./components/Header";
+import NotFound from "./pages/not-found";
+import Home from "./pages/home";
+import AboutUs from "./pages/about-us";
+import Research from "./pages/research";
+import Soluttions from "./pages/soluttions";
+import Blog from "./pages/blog";
+import GetEarlyAccess from "./pages/get-early-access";
+import Footer from "./components/Footer";
 
-function App() {
+const App = () => {
+  const [activeNav, setActiveNav] = useState<string>("home");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-[100vh] bg-white flex flex-col justify-between">
+      <Router>
+        <div>
+          <Header activeNav={activeNav} setActiveNav={setActiveNav} />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutUs />} />
+            <Route path="/research" element={<Research />} />
+            <Route path="/solutions" element={<Soluttions />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/get-early-access" element={<GetEarlyAccess />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </div>
+        <Footer activeNav={activeNav} setActiveNav={setActiveNav} />
+      </Router>
     </div>
   );
-}
+};
 
 export default App;
