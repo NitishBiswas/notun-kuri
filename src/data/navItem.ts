@@ -12,14 +12,14 @@ export const NAV_ENGLISH_ITEM = [
         title: "Solutions",
         navigate: "/solutions",
     },
-    {
-        title: "Blog",
-        navigate: "/blog",
-    },
-    {
-        title: "Get Early Access",
-        navigate: "/get-early-access",
-    },
+    // {
+    //     title: "Blog",
+    //     navigate: "/blog",
+    // },
+    // {
+    //     title: "Get Early Access",
+    //     navigate: "/get-early-access",
+    // },
 ];
 
 export const NAV_BANGLA_ITEM = [
@@ -35,12 +35,12 @@ export const NAV_BANGLA_ITEM = [
         title: "সমাধান",
         navigate: "/solutions",
     },
-    {
-        title: "ব্লগ",
-        navigate: "/blog",
-    },
-    {
-        title: "প্রারম্ভিক অ্যাক্সেস পান",
-        navigate: "/get-early-access",
-    },
+    // {
+    //     title: "ব্লগ",
+    //     navigate: "/blog",
+    // },
+    // {
+    //     title: "প্রারম্ভিক অ্যাক্সেস পান",
+    //     navigate: "/get-early-access",
+    // },
 ];

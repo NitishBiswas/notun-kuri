@@ -109,7 +109,7 @@ const Header = ({
             </div>
             {isSidebarActive ? (
                 <div className="w-full h-full top-0 bg-black/50 absolute z-[10000]">
-                    <div ref={downRef} className="h-full bg-white w-[300px]">
+                    <div ref={downRef} className="h-[100vh] bg-white w-[300px]">
                         {/* logo */}
                         <div className="flex flex-row items-center justify-between cursor-pointer px-4 pt-12 pb-2 shadow bg-gray-900 h-18 ">
                             <img
@@ -132,7 +132,7 @@ const Header = ({
                                 className="text-white hover:text-[#b4ff00]"
                             />
                         </div>
-                        <div className="text-gray-900 space-y-2 px-5 mt-4">
+                        <div className="text-gray-900 bg-white h-full space-y-2 px-5 mt-4">
                             {NAV_ITEM?.map((item, index) => {
                                 return (
                                     <div

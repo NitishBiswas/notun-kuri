@@ -9,6 +9,8 @@ import Soluttions from "./pages/soluttions";
 import Blog from "./pages/blog";
 import GetEarlyAccess from "./pages/get-early-access";
 import Footer from "./components/Footer";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   const [activeNav, setActiveNav] = useState<string>("home");
@@ -18,7 +20,7 @@ const App = () => {
         <div>
           <Header activeNav={activeNav} setActiveNav={setActiveNav} />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home setActiveNav={setActiveNav} />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/research" element={<Research />} />
             <Route path="/solutions" element={<Soluttions />} />
@@ -29,6 +31,7 @@ const App = () => {
         </div>
         <Footer activeNav={activeNav} setActiveNav={setActiveNav} />
       </Router>
+      <ToastContainer />
     </div>
   );
 };

@@ -5,6 +5,7 @@ import { useContext } from "react";
 import { GlobalStateContext, GlobalStateContextProps } from "../store/store";
 import { NAV_BANGLA_ITEM, NAV_ENGLISH_ITEM } from "../data/navItem";
 import { FaFacebookSquare, FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
+import NewsletterForm from "./NewsletterForm";
 
 const Footer = ({ activeNav, setActiveNav }: { activeNav: string, setActiveNav: (nav: string) => void }) => {
     const navigate = useNavigate();
@@ -28,8 +29,9 @@ const Footer = ({ activeNav, setActiveNav }: { activeNav: string, setActiveNav: 
 
     return (
         <div>
+            <NewsletterForm />
             <div className="bg-gray-900 w-full min-h-[200px] flex flex-row justify-center items-center py-8">
-                <div className="w-[90%] h-full flex flex-col lg:flex-row justify-between items-center lg:items-start">
+                <div className="w-[90%] h-full flex flex-col md:flex-row justify-between items-center md:items-start">
                     <div
                         onClick={() => {
                             setActiveNav("home");
@@ -39,8 +41,8 @@ const Footer = ({ activeNav, setActiveNav }: { activeNav: string, setActiveNav: 
                     >
                         <img src={globalState.language === 'English' ? header_logo_Eng : header_logo} alt="header logo" className="w-[250px]" />
                     </div>
-                    <div className="w-full lg:w-[40%]">
-                        <div className="text-white font-bold text-lg mt-5 lg:mt-0">{globalState.language === 'English' ? 'Menu' : 'মেনু'}</div>
+                    <div className="w-full md:w-[40%]">
+                        <div className="text-white font-bold text-lg mt-5 md:mt-0">{globalState.language === 'English' ? 'Menu' : 'মেনু'}</div>
                         {/* nav item */}
                         <div className="grid grid-cols-2 justify-between text-white mt-3">
                             {NAV_ITEM.map((item, index) => {
@@ -78,8 +80,8 @@ const Footer = ({ activeNav, setActiveNav }: { activeNav: string, setActiveNav: 
                             </div>
                         </div>
                     </div>
-                    <div className="w-full lg:w-[20%] mt-5 lg:mt-0">
-                        <div className="text-white font-bold text-lg mt-5 lg:mt-0">{globalState.language === 'English' ? 'Contact Us' : 'যোগাযোগ করুন'}</div>
+                    <div className="w-full md:w-[20%] mt-5 md:mt-0">
+                        <div className="text-white font-bold text-lg mt-5 md:mt-0">{globalState.language === 'English' ? 'Contact Us' : 'যোগাযোগ করুন'}</div>
                         <div className="text-white flex flex-row gap-5 mt-4 cursor-pointer">
                             <div onClick={() => window.open('http://www.google.com')} className="bg-[#8cc600] hover:bg-black rounded-full p-3">
                                 <FaFacebookSquare size={20} />
