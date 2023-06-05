@@ -19,7 +19,6 @@ const NewsletterForm = () => {
     }
     const { loading, error, success, storeEmailInFirebase } = useEmailSubscription();
 
-    console.log({ error });
 
     const formik = useFormik({
         initialValues: {
@@ -68,7 +67,7 @@ const NewsletterForm = () => {
     }, [error]);
 
     return (
-        <div className="flex flex-row w-full justify-center mb-20 px-4 sm:px-0">
+        <div className="flex flex-row w-full justify-center my-20 px-4 sm:px-0">
             <div className="w-full sm:w-[80%] md:w-[60%] lg:w-[40%] bg-[#099545]/20 shadow-lg rounded-md p-6 space-y-4">
                 {success || localStorage.getItem('subscribed') ? <>
                     <div className="text-center text-2xl font-bold">{subscribedText.title}</div>

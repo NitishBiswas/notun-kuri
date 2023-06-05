@@ -28,7 +28,7 @@ const Footer = ({ activeNav, setActiveNav }: { activeNav: string, setActiveNav: 
     };
 
     return (
-        <div>
+        <div className="h-full">
             <NewsletterForm />
             <div className="bg-gray-900 w-full min-h-[200px] flex flex-row justify-center items-center py-8">
                 <div className="w-[90%] h-full flex flex-col md:flex-row justify-between items-center md:items-start">

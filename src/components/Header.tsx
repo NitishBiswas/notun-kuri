@@ -40,7 +40,7 @@ const Header = ({
     useOnClickOutside(downRef, () => setIsSidebarActive(false));
 
     return (
-        <div className="bg-gray-900 sticky top-0 h-18 w-full flex flex-row justify-center items-center shadow">
+        <div className="bg-gray-900 sticky top-0 z-[1000000] h-18 w-full flex flex-row justify-center items-center shadow">
             <div className="w-[90%] h-full flex flex-row justify-between items-center">
                 {/* logo */}
                 <div
