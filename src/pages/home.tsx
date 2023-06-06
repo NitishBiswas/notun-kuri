@@ -1,6 +1,5 @@
 import React from "react";
 import COVER_IMG from "../images/cover.jpg";
-import MOBILE from "../images/mobile.jpg";
 import useGetLanguage from "../hooks/useGetLanguage";
 import { coverSubTitleBng, coverSubTitleEng, coverTitleBng, coverTitleEng } from '../data/homeScreen';
 import HomeSolution from "../components/HomeSolution";
@@ -26,7 +25,7 @@ const Home = ({ setActiveNav }: { setActiveNav: (nav: string) => void }) => {
                 <div className="md:w-[80%] w-full h-[90vh] flex flex-row mt-20 lg:ml-20 mx-5">
                     <div className="lg:w-[70%] w-full space-y-3">
                         {language === 'English' ? <>
-                            <div className="text-4xl font-bold shadow-lg text-white">
+                            <div className="text-4xl font-bold text-white">
                                 {coverTitleEng.split('VITAL SIGN')[0]} {" "}
                                 <span className="text-blue-500">VITAL SIGN</span>
                             </div>
@@ -34,7 +33,7 @@ const Home = ({ setActiveNav }: { setActiveNav: (nav: string) => void }) => {
                                 {coverSubTitleEng}
                             </div>
                         </> : <>
-                            <div className="text-4xl font-bold shadow-lg text-white">
+                            <div className="text-4xl font-bold text-white">
                                 {coverTitleBng.split('গুরুত্বপূর্ণ লক্ষণ')[0]} {" "}
                                 <span className="text-blue-500">গুরুত্বপূর্ণ লক্ষণ</span>
                             </div>
@@ -54,11 +53,6 @@ const Home = ({ setActiveNav }: { setActiveNav: (nav: string) => void }) => {
                             {language === 'English' ? "Download App" : 'অ্যাপ ডাউনলোড করুন'}
                         </div>
                     </div>
-                    {/* <div className="w-full lg:w-[50%] h-[40vh] lg:h-[90vh]">
-                        <div className="object-contain h-[40vh] lg:h-[90vh] flex flex-row justify-center items-center">
-                            <img src={MOBILE} alt="mobile" className="h-[80%] rotate-6" />
-                        </div>
-                    </div> */}
                 </div>
             </div>
             <div>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from "./components/Header";
 import NotFound from "./pages/not-found";
@@ -11,9 +11,13 @@ import GetEarlyAccess from "./pages/get-early-access";
 import Footer from "./components/Footer";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import useLocalStorageActiveNav from "./hooks/useLocalStorageActiveNav";
 
 const App = () => {
-  const [activeNav, setActiveNav] = useState<string>("home");
+  const [activeNav, setActiveNav] = useLocalStorageActiveNav("home");
+
+  console.log(activeNav)
+
   return (
     <div className="min-h-[100vh] bg-white flex flex-col justify-between">
       <Router>
@@ -22,7 +26,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home setActiveNav={setActiveNav} />} />
             <Route path="/about" element={<AboutUs />} />
-            <Route path="/research" element={<Research />} />
+            <Route path="/research" element={<Research setActiveNav={setActiveNav} />} />
             <Route path="/solutions" element={<Soluttions />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/get-early-access" element={<GetEarlyAccess />} />

@@ -1,4 +1,4 @@
-import React, { createContext, useState, ReactNode, Dispatch, SetStateAction } from 'react';
+import React, { createContext, useState, ReactNode, Dispatch, SetStateAction, useEffect } from 'react';
 
 export interface GlobalState {
     language: string;
@@ -17,10 +17,17 @@ export interface GlobalStateProviderProps {
 export const GlobalStateContext = createContext<GlobalStateContextProps | undefined>(undefined);
 
 export const GlobalStateProvider: React.FC<GlobalStateProviderProps> = ({ children }) => {
-    const [globalState, setGlobalState] = useState<GlobalState>({
-        language: 'English',
-        // Add more properties to the global state as needed
+    const [globalState, setGlobalState] = useState<GlobalState>(() => {
+        const storedState = localStorage.getItem('globalState');
+        return storedState ? JSON.parse(storedState) : {
+            language: 'English',
+            // Add more properties to the global state as needed
+        };
     });
+
+    useEffect(() => {
+        localStorage.setItem('globalState', JSON.stringify(globalState));
+    }, [globalState]);
 
     const contextValue: GlobalStateContextProps = {
         globalState,

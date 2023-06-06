@@ -65,10 +65,10 @@ const Header = ({
                             <div
                                 key={index}
                                 onClick={() => {
-                                    setActiveNav(item.title);
+                                    setActiveNav(item.navigate);
                                     navigate(item.navigate);
                                 }}
-                                className={`cursor-pointer h-10 flex flex-row items-center text-lg ${activeNav === item.title
+                                className={`cursor-pointer h-10 flex flex-row items-center text-lg ${activeNav === item.navigate
                                     ? "text-[#b4ff00] font-semibold hover:text-white border-b border-[#b4ff00]"
                                     : "hover:text-[#b4ff00]"
                                     }`}
@@ -138,11 +138,11 @@ const Header = ({
                                     <div
                                         key={index}
                                         onClick={() => {
-                                            setActiveNav(item.title);
+                                            setActiveNav(item.navigate);
                                             navigate(item.navigate);
                                             setIsSidebarActive(false);
                                         }}
-                                        className={`cursor-pointer h-10 flex flex-row items-center text-lg pl-4 ${activeNav === item.title
+                                        className={`cursor-pointer h-10 flex flex-row items-center text-lg pl-4 ${activeNav === item.navigate
                                             ? "text-[#b4ff00] font-semibold hover:text-gray-900 border-l-4 border-[#b4ff00]"
                                             : "hover:text-[#b4ff00]"
                                             }`}

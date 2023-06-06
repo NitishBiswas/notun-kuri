@@ -5,8 +5,10 @@ import { useNavigate } from "react-router-dom";
 
 const ClinicalPartners = ({
     setActiveNav,
+    isResearch = false,
 }: {
     setActiveNav: (nav: string) => void;
+    isResearch?: boolean;
 }) => {
     const language = useGetLanguage();
     const navigate = useNavigate();
@@ -28,7 +30,14 @@ const ClinicalPartners = ({
                             <span
                                 onClick={() => {
                                     setActiveNav("Research");
-                                    navigate('research');
+                                    if (isResearch) {
+                                        window.scrollTo({
+                                            top: 0,
+                                            behavior: 'smooth' // Optional: Adds smooth scrolling animation
+                                        });
+                                    } else {
+                                        navigate('research');
+                                    }
                                 }}
                                 className="text-[#0cd563] cursor-pointer font-bold"
                             >

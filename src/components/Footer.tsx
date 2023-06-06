@@ -50,10 +50,10 @@ const Footer = ({ activeNav, setActiveNav }: { activeNav: string, setActiveNav: 
                                     <div key={index}>
                                         <div
                                             onClick={() => {
-                                                setActiveNav(item.title);
+                                                setActiveNav(item.navigate);
                                                 navigate(item.navigate);
                                             }}
-                                            className={`cursor-pointer flex flex-row items-center text-lg my-2 w-[100%] ${activeNav === item.title ? "text-[#b4ff00] font-semibold hover:text-white border-l-2 pl-2 border-[#b4ff00]" : "hover:text-[#b4ff00]"}`}
+                                            className={`cursor-pointer flex flex-row items-center text-lg my-2 w-[100%] ${activeNav === item.navigate ? "text-[#b4ff00] font-semibold hover:text-white border-l-2 pl-2 border-[#b4ff00]" : "hover:text-[#b4ff00]"}`}
                                         >
                                             {item.title}
                                         </div>
