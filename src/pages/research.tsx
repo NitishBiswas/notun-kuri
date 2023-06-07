@@ -1,12 +1,12 @@
 import React from "react";
 import useGetLanguage from "../hooks/useGetLanguage";
-import { coverSubTitleBng, coverSubTitleEng, coverTitleBng, coverTitleEng, leaderShipMembersBng, leaderShipMembersEng } from "../data/aboutScreen";
 import MOBILE from "../images/mobile.jpg";
 import ClinicalPartners from "../components/ClinicalPartners";
+import { coverSubTitleBng, coverSubTitleEng, coverTitleBng, coverTitleEng } from "../data/researchScreen";
+import Publications from "../components/Publications";
 
 const Research = ({ setActiveNav }: { setActiveNav: (nav: string) => void }) => {
     const language = useGetLanguage();
-    const leaderShipMembers = language === 'English' ? leaderShipMembersEng : leaderShipMembersBng;
 
     return (
         <div className="w-full">
@@ -46,12 +46,16 @@ const Research = ({ setActiveNav }: { setActiveNav: (nav: string) => void }) => 
                             {language === "English" ? "Download App" : "অ্যাপ ডাউনলোড করুন"}
                         </div>
                     </div>
-                    <div className="w-full lg:w-[50%] h-[40vh] hidden lg:flex justify-center">
-                        <div className="object-contain h-[40vh] flex flex-row justify-center items-center">
+                    <div className="w-full lg:w-[50%] h-[50vh] hidden lg:flex justify-center">
+                        <div className="object-contain h-[50vh] flex flex-row justify-center items-center">
                             <img src={MOBILE} alt="mobile" className="h-[100%] rotate-6" />
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="flex flex-col justify-center items-center py-10 mt-10">
+                <div className="text-4xl font-bold">{language === 'English' ? "List Of Publications" : "প্রকাশনার তালিকা"}</div>
+                <Publications />
             </div>
             <div>
                 <ClinicalPartners setActiveNav={setActiveNav} isResearch={true} />
