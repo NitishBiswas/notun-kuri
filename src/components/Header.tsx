@@ -108,7 +108,7 @@ const Header = ({
                 )}
             </div>
             {isSidebarActive ? (
-                <div className="w-full h-full top-0 bg-black/50 absolute z-[10000]">
+                <div className="w-[100vw] h-[100vh] top-0 bg-black/70 absolute z-[10000]">
                     <div ref={downRef} className="h-[100vh] bg-white w-[300px]">
                         {/* logo */}
                         <div className="flex flex-row items-center justify-between cursor-pointer px-4 pt-12 pb-2 shadow bg-gray-900 h-18 ">

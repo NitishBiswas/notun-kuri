@@ -37,7 +37,7 @@ const NewsletterForm = () => {
     useEffect(() => {
         if (success) {
             toast.success('Subscription done!', {
-                position: "top-right",
+                position: "bottom-center",
                 autoClose: 4998,
                 hideProgressBar: false,
                 closeOnClick: true,
@@ -54,7 +54,7 @@ const NewsletterForm = () => {
     useEffect(() => {
         if (error) {
             toast.error('Failed to store email!', {
-                position: "top-right",
+                position: "bottom-center",
                 autoClose: 4998,
                 hideProgressBar: false,
                 closeOnClick: true,

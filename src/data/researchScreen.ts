@@ -23,3 +23,8 @@ export const researchData = [
         url: "https://www.google.com/"
     },
 ]
+
+export const clinicalPipelineTitleEng = "Clinical development pipeline";
+export const clinicalPipelineTitleBng = "ক্লিনিকাল উন্নয়ন পাইপলাইন";
+export const clinicalPipelineSubTitleEng = "We are developing a robust platform for early screening and monitoring of a range of neurological and respiratory conditions affecting infants.";
+export const clinicalPipelineSubTitleBng = "আমরা একটি শক্তিশালী প্ল্যাটফর্ম তৈরি করছি যার প্রাথমিক স্ক্রীনিং এবং নিরীক্ষণের জন্য বিভিন্ন স্নায়বিক এবং শ্বাসযন্ত্রের অবস্থা যা শিশুদের প্রভাবিত করে।";

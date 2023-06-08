@@ -2,7 +2,7 @@ import React from "react";
 import useGetLanguage from "../hooks/useGetLanguage";
 import { coverSubTitleBng, coverSubTitleEng, coverTitleBng, coverTitleEng, leaderShipMembersBng, leaderShipMembersEng } from "../data/aboutScreen";
 import MemberCard from "../components/MemberCard";
-import MOBILE from "../images/mobile.jpg";
+import MOBILE from "../images/phone.png";
 
 const AboutUs = () => {
     const language = useGetLanguage();
@@ -13,7 +13,7 @@ const AboutUs = () => {
             <div
                 className="w-full flex flex-row justify-center items-center"
             >
-                <div className="md:w-[80%] w-full flex flex-row justify-center mt-20 mx-5">
+                <div className="md:w-[80%] w-full flex flex-row justify-center items-center mt-20 mx-5">
                     <div className="lg:w-[50%] w-full space-y-4">
                         {language === "English" ? (
                             <>
@@ -46,9 +46,9 @@ const AboutUs = () => {
                             {language === "English" ? "Download App" : "অ্যাপ ডাউনলোড করুন"}
                         </div>
                     </div>
-                    <div className="w-full lg:w-[50%] h-[40vh] hidden lg:flex justify-center">
-                        <div className="object-contain h-[40vh] flex flex-row justify-center items-center">
-                            <img src={MOBILE} alt="mobile" className="h-[100%] rotate-6" />
+                    <div className="w-full lg:w-[50%] h-[60vh] hidden lg:flex justify-center">
+                        <div className="object-contain h-[60vh] flex flex-row justify-center items-center">
+                            <img src={MOBILE} alt="mobile" className="h-[100%]" />
                         </div>
                     </div>
                 </div>

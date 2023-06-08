@@ -1,9 +1,10 @@
 import React from "react";
 import useGetLanguage from "../hooks/useGetLanguage";
-import MOBILE from "../images/mobile.jpg";
+import MOBILE from "../images/phone-2.png";
 import ClinicalPartners from "../components/ClinicalPartners";
 import { coverSubTitleBng, coverSubTitleEng, coverTitleBng, coverTitleEng } from "../data/researchScreen";
 import Publications from "../components/Publications";
+import ClinicalPipeline from "../components/ClinicalPipeline";
 
 const Research = ({ setActiveNav }: { setActiveNav: (nav: string) => void }) => {
     const language = useGetLanguage();
@@ -13,7 +14,7 @@ const Research = ({ setActiveNav }: { setActiveNav: (nav: string) => void }) => 
             <div
                 className="w-full flex flex-row justify-center items-center"
             >
-                <div className="md:w-[80%] w-full flex flex-row justify-center mt-20 mx-5">
+                <div className="md:w-[80%] w-full flex flex-row justify-center items-center mt-20 mx-5">
                     <div className="lg:w-[50%] w-full space-y-4">
                         {language === "English" ? (
                             <>
@@ -46,14 +47,17 @@ const Research = ({ setActiveNav }: { setActiveNav: (nav: string) => void }) => 
                             {language === "English" ? "Download App" : "অ্যাপ ডাউনলোড করুন"}
                         </div>
                     </div>
-                    <div className="w-full lg:w-[50%] h-[50vh] hidden lg:flex justify-center">
-                        <div className="object-contain h-[50vh] flex flex-row justify-center items-center">
-                            <img src={MOBILE} alt="mobile" className="h-[100%] rotate-6" />
+                    <div className="w-full lg:w-[50%] h-[60vh] hidden lg:flex justify-center">
+                        <div className="object-contain h-[60vh] flex flex-row justify-center items-center">
+                            <img src={MOBILE} alt="mobile" className="h-[100%]" />
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col justify-center items-center py-10 mt-10">
+            <div>
+                <ClinicalPipeline />
+            </div>
+            <div className="flex flex-col justify-center items-center pb-10">
                 <div className="text-4xl font-bold">{language === 'English' ? "List Of Publications" : "প্রকাশনার তালিকা"}</div>
                 <Publications />
             </div>
