@@ -12,11 +12,16 @@ import Footer from "./components/Footer";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import useLocalStorageActiveNav from "./hooks/useLocalStorageActiveNav";
+import useGetLanguage from "./hooks/useGetLanguage";
 
 const App = () => {
   const [activeNav, setActiveNav] = useLocalStorageActiveNav("home");
+  const language = useGetLanguage();
 
-  console.log(activeNav)
+  useEffect(() => {
+    const title = language === 'English' ? 'Notun Kuri' : 'নতুন কুঁড়ি'
+    document.title = title;
+  }, [language]);
 
   return (
     <div className="min-h-[100vh] bg-white flex flex-col justify-between">
