@@ -13,7 +13,7 @@ const AboutUs = () => {
             <div
                 className="w-full flex flex-row justify-center items-center"
             >
-                <div className="md:w-[80%] w-full flex flex-row justify-center items-center mt-20 mx-5">
+                <div className="md:w-[80%] w-full flex flex-col lg:flex-row gap-5 justify-center items-center mt-20 mx-5">
                     <div className="lg:w-[50%] w-full space-y-4">
                         {language === "English" ? (
                             <>
@@ -46,7 +46,7 @@ const AboutUs = () => {
                             {language === "English" ? "Download App" : "অ্যাপ ডাউনলোড করুন"}
                         </div>
                     </div>
-                    <div className="w-full lg:w-[50%] h-[60vh] hidden lg:flex justify-center">
+                    <div className="w-full lg:w-[50%] h-[60vh] justify-center">
                         <div className="object-contain h-[60vh] flex flex-row justify-center items-center">
                             <img src={MOBILE} alt="mobile" className="h-[100%]" />
                         </div>
