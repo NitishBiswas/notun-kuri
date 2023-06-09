@@ -13,7 +13,7 @@ const Publications = () => {
                     {researchData.map((item, index) => {
                         return (
                             <div key={index} className="flex flex-row w-full lg:w-[60%] items-center">
-                                <div onClick={() => setSelectedItem(item)} className={`w-full min-h-16 flex items-center border cursor-pointer px-4 py-2 rounded-md ${item.id === selectedItem.id ? "border-2 border-[#7ae6a3]" : ""}`}>
+                                <div onClick={() => setSelectedItem(item)} className={`w-full overflow-hidden line-clamp-2 min-h-16 flex items-center border cursor-pointer px-4 py-2 rounded-md ${item.id === selectedItem.id ? "border-2 border-[#7ae6a3]" : ""}`}>
                                     {item.title}
                                 </div>
                                 <AiFillCaretRight color={item.id === selectedItem.id ? "#7ae6a3" : "white"} size={24} />
@@ -26,7 +26,7 @@ const Publications = () => {
                     <div className="w-24">
                         <img src={PDF} alt="pdf" className="w-full h-full" />
                     </div>
-                    <div className="text-lg text-gray-900 pl-2 pt-4">{selectedItem.subTitle}</div>
+                    <div className="text-lg text-gray-900 pl-2 pt-4 overflow-hidden line-clamp-2">{selectedItem.subTitle}</div>
                     <div onClick={() => window.open(selectedItem.url)} className="px-4 py-2 bg-[#7ae6a3] hover:bg-white border border-[#7ae6a3] cursor-pointer font-bold text-white hover:text-gray-900 rounded-lg w-20 text-center ml-2 mt-4">View</div>
                 </div>
             </div>

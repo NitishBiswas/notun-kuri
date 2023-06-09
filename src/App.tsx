@@ -13,6 +13,7 @@ import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import useLocalStorageActiveNav from "./hooks/useLocalStorageActiveNav";
 import useGetLanguage from "./hooks/useGetLanguage";
+import Story from "./pages/story";
 
 const App = () => {
   const [activeNav, setActiveNav] = useLocalStorageActiveNav("home");
@@ -35,6 +36,7 @@ const App = () => {
             <Route path="/solutions" element={<Soluttions />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/get-early-access" element={<GetEarlyAccess />} />
+            <Route path="/story/:id" element={<Story />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>

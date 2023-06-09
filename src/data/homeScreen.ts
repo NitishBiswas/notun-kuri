@@ -89,76 +89,90 @@ export const awardData = [
 
 export const storyDataEng = [
     {
+        id: 1,
         title: "Dhaka International University",
-        sybTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+        subTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         icon: 'https://picsum.photos/id/1/200',
     },
     {
+        id: 2,
         title: "Dhaka International University",
-        sybTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+        subTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         icon: 'https://picsum.photos/id/2/200',
     },
     {
+        id: 3,
         title: "Dhaka International University",
-        sybTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+        subTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         icon: 'https://picsum.photos/id/3/200',
     },
     {
+        id: 4,
         title: "Dhaka International University",
-        sybTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+        subTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         icon: 'https://picsum.photos/id/4/200',
     },
     {
+        id: 5,
         title: "Dhaka International University",
-        sybTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+        subTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         icon: 'https://picsum.photos/id/5/200',
     },
     {
+        id: 6,
         title: "Dhaka International University",
-        sybTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+        subTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         icon: 'https://picsum.photos/id/6/200',
     },
     {
+        id: 7,
         title: "Dhaka International University",
-        sybTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+        subTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         icon: 'https://picsum.photos/id/7/200',
     },
 ]
 
 export const storyDataBng = [
     {
+        id: 1,
         title: "Dhaka International University",
-        sybTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
+        subTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
         icon: 'https://picsum.photos/id/1/200',
     },
     {
+        id: 2,
         title: "Dhaka International University",
-        sybTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
+        subTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
         icon: 'https://picsum.photos/id/2/200',
     },
     {
+        id: 3,
         title: "Dhaka International University",
-        sybTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
+        subTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
         icon: 'https://picsum.photos/id/3/200',
     },
     {
+        id: 4,
         title: "Dhaka International University",
-        sybTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
+        subTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
         icon: 'https://picsum.photos/id/4/200',
     },
     {
+        id: 5,
         title: "Dhaka International University",
-        sybTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
+        subTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
         icon: 'https://picsum.photos/id/5/200',
     },
     {
+        id: 6,
         title: "Dhaka International University",
-        sybTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
+        subTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
         icon: 'https://picsum.photos/id/6/200',
     },
     {
+        id: 7,
         title: "Dhaka International University",
-        sybTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
+        subTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
         icon: 'https://picsum.photos/id/7/200',
     },
 ]

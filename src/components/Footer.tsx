@@ -96,7 +96,7 @@ const Footer = ({ activeNav, setActiveNav }: { activeNav: string, setActiveNav: 
                     </div>
                 </div>
             </div>
-            <div className="my-5 text-center w-full">{globalState.language === 'English' ? 'Copyright Ⓒ 2023 Notun Kuri. All Rights Reserved | Privacy & Data Protection | Disclaimer' : 'কপিরাইট Ⓒ 2023 নতুন কুঁড়ি । সর্বস্বত্ব সংরক্ষিত | গোপনীয়তা এবং ডেটা সুরক্ষা | দাবিত্যাগ'}</div>
+            <div className="my-1 text-center font-semibold w-full">{globalState.language === 'English' ? 'Copyright Ⓒ 2023 Notun Kuri. All Rights Reserved | Privacy & Data Protection | Disclaimer' : 'কপিরাইট Ⓒ 2023 নতুন কুঁড়ি । সর্বস্বত্ব সংরক্ষিত | গোপনীয়তা এবং ডেটা সুরক্ষা | দাবিত্যাগ'}</div>
         </div>
     );
 };
