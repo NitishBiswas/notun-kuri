@@ -1,5 +1,5 @@
 import React from "react";
-import ForCROsLogo from '../images/s4.svg';
+import ForCROsLogo from '../images/CROs.jpg';
 import useGetLanguage from "../hooks/useGetLanguage";
 import { forCROsTitleEng, forCROsTitleBng, forCROsSubTitleEng, forCROsSubTitleBng } from "../data/solutionsData";
 

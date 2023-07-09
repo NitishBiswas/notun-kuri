@@ -1,5 +1,5 @@
 import React from "react";
-import ForParentsLogo from '../images/s1.svg';
+import ForParentsLogo from '../images/parents.png';
 import useGetLanguage from "../hooks/useGetLanguage";
 import { forParentsSubTitleBng, forParentsSubTitleEng, forParentsTitleBng, forParentsTitleEng } from "../data/solutionsData";
 

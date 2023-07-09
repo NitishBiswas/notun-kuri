@@ -6,9 +6,18 @@ import StoriesCarousel from "../components/StoriesCarousel";
 import HomeMedia from "../components/HomeMedia";
 import HomeSupport from "../components/HomeSupport";
 import HomeCarousel from "../components/HomeCarousel";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 const Home = ({ setActiveNav }: { setActiveNav: (nav: string) => void }) => {
     const language = useGetLanguage();
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        if (pathname === '/') {
+            setActiveNav('home');
+        }
+    }, [])
     return (
         <div className="w-full">
             <HomeCarousel />

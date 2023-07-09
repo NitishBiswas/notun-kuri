@@ -2,7 +2,7 @@ import React from "react";
 import useGetLanguage from "../hooks/useGetLanguage";
 import { coverSubTitleBng, coverSubTitleEng, coverTitleBng, coverTitleEng, leaderShipMembersBng, leaderShipMembersEng } from "../data/aboutScreen";
 import MemberCard from "../components/MemberCard";
-import MOBILE from "../images/phone.png";
+import MOBILE from "../images/mobile.png";
 
 const AboutUs = () => {
     const language = useGetLanguage();

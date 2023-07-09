@@ -1,5 +1,5 @@
 import React from "react";
-import PrimaryCareLogo from '../images/s2.svg';
+import PrimaryCareLogo from '../images/solution.png';
 import useGetLanguage from "../hooks/useGetLanguage";
 import { primaryCareTitleEng, primaryCareTitleBng, primaryCareSubTitleEng, primaryCareSubTitleBng } from "../data/solutionsData";
 

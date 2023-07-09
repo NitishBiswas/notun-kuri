@@ -89,7 +89,7 @@ const Footer = ({ activeNav, setActiveNav }: { activeNav: string, setActiveNav: 
                             <div onClick={() => window.open('http://www.google.com')} className="bg-[#8cc600] hover:bg-black rounded-full p-3">
                                 <FaLinkedin size={20} />
                             </div>
-                            <div onClick={() => window.open('http://www.google.com')} className="bg-[#8cc600] hover:bg-black rounded-full p-3">
+                            <div onClick={() => window.open('https://www.instagram.com/notunkuri23/')} className="bg-[#8cc600] hover:bg-black rounded-full p-3">
                                 <FaInstagramSquare size={20} />
                             </div>
                         </div>

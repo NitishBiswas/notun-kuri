@@ -1,5 +1,5 @@
 import React from "react";
-import PRIMARY_IMG from "../images/primary.svg";
+import PRIMARY_IMG from "../images/solution.png";
 import useGetLanguage from "../hooks/useGetLanguage";
 import {
     homeSolutionSubTitleBng,

@@ -1,6 +1,6 @@
 import React from "react";
 import useGetLanguage from "../hooks/useGetLanguage";
-import MOBILE from "../images/phone-2.png";
+import MOBILE from "../images/mobile.png";
 import ClinicalPartners from "../components/ClinicalPartners";
 import { coverSubTitleBng, coverSubTitleEng, coverTitleBng, coverTitleEng } from "../data/researchScreen";
 import Publications from "../components/Publications";

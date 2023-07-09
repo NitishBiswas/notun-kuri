@@ -1,5 +1,5 @@
 import React from "react";
-import ForResearchersLogo from '../images/s3.svg';
+import ForResearchersLogo from '../images/research.png';
 import useGetLanguage from "../hooks/useGetLanguage";
 import { forResearchersSubTitleBng, forResearchersSubTitleEng, forResearchersTitleBng, forResearchersTitleEng } from "../data/solutionsData";
 
