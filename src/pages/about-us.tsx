@@ -1,12 +1,11 @@
 import React from "react";
 import useGetLanguage from "../hooks/useGetLanguage";
-import { coverSubTitleBng, coverSubTitleEng, coverTitleBng, coverTitleEng, leaderShipMembersBng, leaderShipMembersEng } from "../data/aboutScreen";
+import { advisorMembers, coverSubTitleBng, coverSubTitleEng, coverTitleBng, coverTitleEng, leaderShipMembers } from "../data/aboutScreen";
 import MemberCard from "../components/MemberCard";
 import MOBILE from "../images/mobile.png";
 
 const AboutUs = () => {
     const language = useGetLanguage();
-    const leaderShipMembers = language === 'English' ? leaderShipMembersEng : leaderShipMembersBng;
 
     return (
         <div className="w-full">
@@ -59,7 +58,7 @@ const AboutUs = () => {
                     {leaderShipMembers?.map((item, index) => {
                         return (
                             <div key={index} className="w-[350px] flex flex-row justify-center items-center my-10">
-                                <MemberCard name={item.name} title={item.title} imageUrl={item.imageUrl} linkedin={item.linkedin} />
+                                <MemberCard name={item.name} title={item.title} subTitle={item.subTitle} imageUrl={item.imageUrl} linkedin={item.linkedin} />
                             </div>
                         )
                     })}
@@ -69,10 +68,10 @@ const AboutUs = () => {
             <div className="flex flex-col justify-center items-center py-10 mt-10">
                 <div className="text-3xl font-bold mb-10">{language === 'English' ? "Key Advisors" : "মূল উপদেষ্টারা"}</div>
                 <div className="w-[90%] flex flex-row justify-evenly items-center flex-wrap">
-                    {leaderShipMembers?.map((item, index) => {
+                    {advisorMembers?.map((item, index) => {
                         return (
                             <div key={index} className="w-[350px] flex flex-row justify-center items-center my-10">
-                                <MemberCard name={item.name} title={item.title} imageUrl={item.imageUrl} linkedin={item.linkedin} />
+                                <MemberCard name={item.name} title={item.title} subTitle={item.subTitle} imageUrl={item.imageUrl} linkedin={item.linkedin} />
                             </div>
                         )
                     })}

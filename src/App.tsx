@@ -42,7 +42,7 @@ const App = () => {
         </div>
         <Footer activeNav={activeNav} setActiveNav={setActiveNav} />
       </Router>
-      <ToastContainer />
+      <ToastContainer style={{ zIndex: 1000000 }} />
     </div>
   );
 };

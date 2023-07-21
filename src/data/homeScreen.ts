@@ -178,21 +178,21 @@ export const storyDataBng = [
 ]
 
 export const mediaData = [
-    'https://picsum.photos/id/1/200',
-    'https://picsum.photos/id/2/200',
-    'https://picsum.photos/id/3/200',
-    'https://picsum.photos/id/4/200',
-    'https://picsum.photos/id/5/200',
-    'https://picsum.photos/id/6/200',
-    'https://picsum.photos/id/7/200',
+    'https://res.cloudinary.com/nitishbiswas/image/upload/v1689917490/Notun%20Kuri/Media/djk_v0y8en.jpg',
+    'https://res.cloudinary.com/nitishbiswas/image/upload/v1689917490/Notun%20Kuri/Media/bk_ci0cu6.png',
+    'https://res.cloudinary.com/nitishbiswas/image/upload/v1689917490/Notun%20Kuri/Media/bb_akhehj.jpg',
+    'https://res.cloudinary.com/nitishbiswas/image/upload/v1689917490/Notun%20Kuri/Media/j_g6gt4n.png',
+    'https://res.cloudinary.com/nitishbiswas/image/upload/v1689917491/Notun%20Kuri/Media/vk_e6jv6n.png',
+    'https://res.cloudinary.com/nitishbiswas/image/upload/v1689917491/Notun%20Kuri/Media/djk_ynelgh.png',
+    'https://res.cloudinary.com/nitishbiswas/image/upload/v1689917490/Notun%20Kuri/Media/gm_pwwskz.png',
 ]
 
 export const supportData = [
-    'https://picsum.photos/id/1/200',
-    'https://picsum.photos/id/2/200',
-    'https://picsum.photos/id/3/200',
-    'https://picsum.photos/id/4/200',
-    'https://picsum.photos/id/5/200',
-    'https://picsum.photos/id/6/200',
-    'https://picsum.photos/id/7/200',
+    'https://res.cloudinary.com/nitishbiswas/image/upload/v1689917886/Notun%20Kuri/Support/ict_ojurro.png',
+    // 'https://picsum.photos/id/2/200',
+    // 'https://picsum.photos/id/3/200',
+    // 'https://picsum.photos/id/4/200',
+    // 'https://picsum.photos/id/5/200',
+    // 'https://picsum.photos/id/6/200',
+    // 'https://picsum.photos/id/7/200',
 ]
