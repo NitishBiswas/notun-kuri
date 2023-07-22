@@ -85,5 +85,12 @@ export const advisorMembers = [
         linkedin: 'https://www.linkedin.com/in/umme-raihan-siddiqi-428710242/',
         imageUrl: "https://res.cloudinary.com/nitishbiswas/image/upload/v1689919703/Notun%20Kuri/Leadership%20Team/Umme-Raihan-Siddiqi_c0lotu.jpg"
     },
+    {
+        name: 'Dr. Hafiz Md. Hasan Babu',
+        title: 'Professor & Dean',
+        subTitle: "Dhaka University",
+        linkedin: '',
+        imageUrl: "https://res.cloudinary.com/nitishbiswas/image/upload/v1690031156/Notun%20Kuri/Leadership%20Team/babu_inpmfn.jpg"
+    },
 ];
 

@@ -90,91 +90,19 @@ export const awardData = [
 export const storyDataEng = [
     {
         id: 1,
-        title: "Dhaka International University",
-        subTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        icon: 'https://picsum.photos/id/1/200',
-    },
-    {
-        id: 2,
-        title: "Dhaka International University",
-        subTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        icon: 'https://picsum.photos/id/2/200',
-    },
-    {
-        id: 3,
-        title: "Dhaka International University",
-        subTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        icon: 'https://picsum.photos/id/3/200',
-    },
-    {
-        id: 4,
-        title: "Dhaka International University",
-        subTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        icon: 'https://picsum.photos/id/4/200',
-    },
-    {
-        id: 5,
-        title: "Dhaka International University",
-        subTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        icon: 'https://picsum.photos/id/5/200',
-    },
-    {
-        id: 6,
-        title: "Dhaka International University",
-        subTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        icon: 'https://picsum.photos/id/6/200',
-    },
-    {
-        id: 7,
-        title: "Dhaka International University",
-        subTitle: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        icon: 'https://picsum.photos/id/7/200',
+        title: "BOU Teacher's 'Notun Kuri' project nominated for ICT Innovation Fund",
+        subTitle: "A baby is called a newborn up to 28 days after birth. Death within this period is called neonatal death. Birth asphyxia is one of the leading causes of infant mortality in Bangladesh. According to a report published by UNICEF, birth asphyxia is one of the causes of 23% of child deaths in the country. Mr.Samrat Kumar Dey, a faculty member of the Computer Science and Engineering program, at the School of Science and Technology, Bangladesh Open University, is currently working on a research project titled 'Notun Kuri' to develop a mobile application based on machine learning, with the aim of reducing infant mortality in the country and diagnosing birth asphyxia.Under this project, birth asphyxia will be diagnosed by recording and analyzing the cries of newborn babies from selected hospitals across the country.Mr.Samrat Dey, principal investigator of 'Notun Kuri' said, “To meet the challenges of the fourth industrial revolution(4IR), better health care services need to be ensured through the use of frontier technologies in the health sector.This is the first time the initiative has been taken to diagnose birth asphyxia by analyzing the cries of newborn babies and develop the country's first newborn cry dataset”. Recently, the 'Notun Kuri' project has been nominated under the ICT Innovation Fund in the fiscal year 2022-2023 from the Department of Information and Communication Technology(ICT) under the Ministry of Posts, Telecommunications and Information Technology, Government of the People's Republic of Bangladesh. In implementing this project, the Information and Communication Technology Department of the government believes that the project will be able to create new services through inventive breakthroughs in providing smart healthcare for the socio-economic development of the country.",
+        icon: 'https://res.cloudinary.com/nitishbiswas/image/upload/v1689918247/Notun%20Kuri/Leadership%20Team/Samrat_Kumar_Dey_wtnshu.jpg',
     },
 ]
 
 export const storyDataBng = [
     {
         id: 1,
-        title: "Dhaka International University",
-        subTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
+        title: "বাউবি শিক্ষকের 'নতুন কুঁড়ি' প্রকল্প আইসিটি উদ্ভাবনী ফান্ডের জন্য মনোনীত",
+        subTitle: "জন্মের পরে ২৮ দিন পর্যন্ত শিশুকে নবজাতক বলা হয়। এই সময়ের মধ্যে মৃত্যু হলে তাকে নবজাতকের মৃত্যু বলা হয়। বাংলাদেশে নবজাতক শিশুর মৃত্যুহারের অন্যতম প্রধান কারন জন্মকালীন শ্বাসরুদ্ধতা বা Birth Asphyxia । ইউনিসেফ প্রকাশিত প্রতিবেদন অনুযায়ী, দেশে সর্বমোট শিশু মৃত্যুর হার হিসেবে ২৩% শিশু মৃত্যুর অন্যতম কারন হলো Birth Asphyxia বা জন্মকালীন শ্বাসরুদ্ধতা। দেশে শিশু মৃত্যুহার হ্রাসের লক্ষ্যে এবং জন্মকালীন শ্বাসরুদ্ধতা নির্ণয়ে, 'নতুন কুঁড়ি' নামে মেশিন লার্নিং ভিত্তিক একটি মোবাইল অ্যাপ্লিকেশন তৈরি শীর্ষক প্রকল্প নিয়ে কাজ করছেন বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়ের স্কুল অব সায়েন্স এন্ড টেকনোলজির  কম্পিউটার সায়েন্স এন্ড ইঞ্জিনিয়ারিং প্রোগ্রামের শিক্ষক জনাব সম্রাট কুমার দে। এই প্রকল্পের আওতায় সারাদেশের নির্দিষ্ট হাসপাতাল থেকে নবজাতক শিশুর কান্না সংরক্ষণ এবং বিশ্লেষণের মাধ্যমে Birth Asphyxia বা জন্মকালীন শ্বাসরুদ্ধতা নির্ণয় করা হবে। 'নতুন কুঁড়ি' সম্পর্কে প্রকল্প পরিচালক জনাব সম্রাট দে বলেন “চতুর্থ শিল্প বিপ্লবের চ্যালেঞ্জ মোকাবেলায় স্বাস্থ্যখাতে অগ্রগামী প্রযুক্তির ব্যবহারের মাধ্যমে উন্নত স্বাস্থ্যসেবা নিশ্চিত করতে হবে। এই প্রথমবার নবজাতক শিশুর কান্না বিশ্লেষণের মাধ্যমে জন্মকালীন শ্বাসরুদ্ধতা নির্ণয় এবং দেশের প্রথম নবজাতকের কান্নার ডাটাসেট তৈরির উদ্যোগ নেয়া হয়েছে। “অতিসম্প্রতি গনপ্রজাতন্ত্রী বাংলাদেশ সরকারের ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি মন্ত্রণালয়ের অধীন তথ্য ও যোগাযোগ প্রযুক্তি(আইসিটি) বিভাগ থেকে ২০২২-২০২৩ অর্থবছরে আইসিটি উদ্ভাবনী ফান্ডের আওতায় 'নতুন কুঁড়ি' প্রকল্পটি মনোনীত হয়েছে। এই প্রকল্প বাস্তবায়নের ক্ষেত্রে সরকারের তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ মনে করে, প্রকল্পটি দেশের আর্থসামাজিক উন্নয়নে স্মার্ট স্বাস্থ্যসেবা প্রদানের ক্ষেত্রে অভিনব উদ্ভাবনের মাধ্যমে নতুন সেবা সৃষ্টি করতে সক্ষম হবে।",
         icon: 'https://picsum.photos/id/1/200',
-    },
-    {
-        id: 2,
-        title: "Dhaka International University",
-        subTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
-        icon: 'https://picsum.photos/id/2/200',
-    },
-    {
-        id: 3,
-        title: "Dhaka International University",
-        subTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
-        icon: 'https://picsum.photos/id/3/200',
-    },
-    {
-        id: 4,
-        title: "Dhaka International University",
-        subTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
-        icon: 'https://picsum.photos/id/4/200',
-    },
-    {
-        id: 5,
-        title: "Dhaka International University",
-        subTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
-        icon: 'https://picsum.photos/id/5/200',
-    },
-    {
-        id: 6,
-        title: "Dhaka International University",
-        subTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
-        icon: 'https://picsum.photos/id/6/200',
-    },
-    {
-        id: 7,
-        title: "Dhaka International University",
-        subTitle: "এটি একটি দীর্ঘ প্রতিষ্ঠিত সত্য যে একটি পাঠক একটি পৃষ্ঠার পাঠযোগ্য বিষয়বস্তু দ্বারা বিভ্রান্ত হবে যখন এটির বিন্যাসটি দেখবে। Lorem Ipsum ব্যবহার করার বিষয় হল যে এটিতে 'এখানে সামগ্রী, এখানে বিষয়বস্তু' ব্যবহার করার বিপরীতে অক্ষরের কম-বেশি স্বাভাবিক বিতরণ রয়েছে, এটিকে পঠনযোগ্য ইংরেজির মতো দেখায়। অনেক ডেস্কটপ পাবলিশিং প্যাকেজ এবং ওয়েব পেজ এডিটররা এখন তাদের ডিফল্ট মডেল টেক্সট হিসেবে Lorem Ipsum ব্যবহার করে এবং 'lorem ipsum'-এর জন্য একটি অনুসন্ধান অনেক ওয়েব সাইটকে তাদের শৈশবকালে উন্মোচিত করবে। বছরের পর বছর ধরে বিভিন্ন সংস্করণ বিকশিত হয়েছে, কখনো দুর্ঘটনাক্রমে, কখনো উদ্দেশ্যমূলক (ইনজেক্টেড হিউমার এবং এর মতো)।",
-        icon: 'https://picsum.photos/id/7/200',
-    },
+    }
 ]
 
 export const mediaData = [

@@ -61,9 +61,9 @@ const Research = ({ setActiveNav }: { setActiveNav: (nav: string) => void }) => 
                 <div className="text-4xl font-bold">{language === 'English' ? "List Of Publications" : "প্রকাশনার তালিকা"}</div>
                 <Publications />
             </div>
-            <div>
+            {/* <div>
                 <ClinicalPartners setActiveNav={setActiveNav} isResearch={true} />
-            </div>
+            </div> */}
         </div>
     );
 };

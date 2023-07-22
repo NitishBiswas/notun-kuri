@@ -4,10 +4,10 @@ export const NAV_ENGLISH_ITEM = [
         title: "About Us",
         navigate: "/about",
     },
-    {
-        title: "Research",
-        navigate: "/research",
-    },
+    // {
+    //     title: "Research",
+    //     navigate: "/research",
+    // },
     {
         title: "Solutions",
         navigate: "/solutions",
@@ -27,10 +27,10 @@ export const NAV_BANGLA_ITEM = [
         title: "আমাদের সম্পর্কে",
         navigate: "/about",
     },
-    {
-        title: "গবেষণা",
-        navigate: "/research",
-    },
+    // {
+    //     title: "গবেষণা",
+    //     navigate: "/research",
+    // },
     {
         title: "সমাধান",
         navigate: "/solutions",

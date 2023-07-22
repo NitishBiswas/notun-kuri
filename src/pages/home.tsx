@@ -24,9 +24,9 @@ const Home = ({ setActiveNav }: { setActiveNav: (nav: string) => void }) => {
             <div>
                 <HomeSolution setActiveNav={setActiveNav} />
             </div>
-            <div>
+            {/* <div>
                 <ClinicalPartners setActiveNav={setActiveNav} />
-            </div>
+            </div> */}
             {/* <div className="flex flex-col justify-center items-center bg-[#0cd563]/5 py-10">
                 <div className="text-3xl font-bold">{language === 'English' ? "Awards" : "পুরস্কার"}</div>
                 <AwardsCarousel />
